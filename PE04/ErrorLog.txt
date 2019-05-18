@@ -1,0 +1,12 @@
+Error: java.sql.SQLException: No suitable driver found for thisdriverdoesnotexist
+Log: Cannot connect to DB
+java.sql.DriverManager.getConnection(DriverManager.java:689)
+URI: thisdriverdoesnotexist
+User: root
+
+Error: java.sql.SQLSyntaxErrorException: Unknown column 'equipmentNumber' in 'field list'
+Log: Cannot getData()
+com.mysql.cj.jdbc.exceptions.SQLError.createSQLException(SQLError.java:120)
+URI: jdbc:mysql://127.0.0.1/travel?autoReconnect=true&useSSL=false&useUnicode=true&useJDBCCompliantTimezoneShift=true&useLegacyDatetimeCode=false&serverTimezone=UTC
+User: root
+
